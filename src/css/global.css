@@ -1,0 +1,29 @@
+/*
+
+    All global, page-irrelevant styling will be put into here.
+
+*/
+
+body {
+    margin: 0;
+    background: #000;
+}
+
+/*
+    Page background style
+*/
+
+.image-background {
+    background: url("../images/Background.png");
+    background-size: cover;
+
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+
+    filter: blur(10px);
+}
