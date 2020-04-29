@@ -28,6 +28,13 @@ body header,main {
     position: relative;
     max-width: 12.5rem;
     height: auto;
+
+    transition-property: transform;
+    transition-duration: 1000ms;
+}
+
+#logo:hover {
+    transform: scale(1.25);
 }
 
 .nav-sec {
